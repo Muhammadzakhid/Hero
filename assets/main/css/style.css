@@ -82,7 +82,8 @@
 }
 
 .about_title {
-  color: #FFAE00;
+  color: var(--orange);
+  font-size: 12px;
   font-weight: 700;
 }
 
@@ -95,4 +96,11 @@
 .about_text {
   color: #4F4F4F;
   font-weight: 300;
+}
+
+.play {
+  color: #F3849F;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
 }
