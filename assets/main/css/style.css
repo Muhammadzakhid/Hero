@@ -1,0 +1,98 @@
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("assets/main/fonts/poppins-v20-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/main/fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("assets/main/fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("assets/main/fonts/poppins-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("assets/main/fonts/poppins-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+ /* ######################################## Home page seaction begin ######################################## */
+
+.home {
+  height: 70vh;
+  background: #926ff6;
+}
+
+.d_text {
+  font-family: 'Popins' , sans-serif , serif;
+  color: #000;
+}
+
+
+.small_title {
+  color: #ffe074;
+  font-weight: 800;
+  font-family: Poppins;
+}
+
+.main_title {
+  color: #fff;
+  font-size: 62px;
+  font-family: Popins;
+  font-weight: 800;
+}
+
+.small_title_2 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.nav_f {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about_title {
+  color: #FFAE00;
+  font-weight: 700;
+}
+
+.about_main_title {
+  color: #4F4F4F;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about_text {
+  color: #4F4F4F;
+  font-weight: 300;
+}
