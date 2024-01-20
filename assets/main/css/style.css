@@ -81,8 +81,12 @@
   font-weight: 400;
 }
 
+ /* ######################################## Home page seaction end ######################################## */
+
+  /* ######################################## About page seaction begin ######################################## */
+
 .about_title {
-  color: var(--orange);
+  color: #FFAE00;
   font-size: 12px;
   font-weight: 700;
 }
@@ -104,3 +108,48 @@
   font-size: 16px;
   text-decoration: none;
 }
+
+ /* ######################################## About page seaction end ######################################## */
+
+ 
+  /* ######################################## Icon page seaction begin ######################################## */
+
+.icon_title {
+  color: #4F4F4F;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.icon_text {
+  color: #4F4F4F;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+ /* ######################################## Icon page seaction end ######################################## */
+
+ /* ######################################## Portfolio page seaction begin ######################################## */
+
+.btn_custom {
+  color: #828282;
+  padding: 5px 18px;
+}
+
+.btn_custom:hover {
+  color: #fff;
+  background: #F3849F;
+  border-radius: 26px;
+}
+
+
+ /* ######################################## Portfolio page seaction end ######################################## */
+
+ /* ######################################## News page seaction begin ######################################## */
+.news {
+  background: #F7EEFF;
+}
+
+
+ /* ######################################## News page seaction end ######################################## */
+
