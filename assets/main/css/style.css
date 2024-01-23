@@ -150,6 +150,49 @@
   background: #F7EEFF;
 }
 
+.news_title1 {
+  color: #F3849F;
+  font-weight: 700;
+}
+.news_title2 {
+  color: #926FF6;
+  font-weight: 700;
+}
+
+.news_title3 {
+  color: #79CFFF;
+  font-weight: 700;
+}
+
+.news_text {
+  font-weight: 500;
+  color: #4F4F4F;
+}
+
+footer {
+  background: #333333;
+}
+
+.footer_title {
+  color: #F7EEFF;
+  font-size: 15px;
+}
 
  /* ######################################## News page seaction end ######################################## */
 
+
+ /* ######################################## Responsive seaction begin ######################################## */
+@media  screen and (max-width: 768px) {
+  .small_title {
+    font-size: 12px;
+  }
+  
+  .main_title {
+    font-size: 14;
+  }
+  
+}
+
+
+
+ /* ######################################## Responsive seaction end ######################################## */

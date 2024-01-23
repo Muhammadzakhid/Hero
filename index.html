@@ -24,16 +24,16 @@
                       <a class="nav-link d-text active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link d-text" href="#">About</a>
+                      <a class="nav-link d-text" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link d-text" href="#">Portfolio</a>
+                      <a class="nav-link d-text" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link d-text" href="#">Blogs</a>
+                      <a class="nav-link d-text" href="#blogs">Blogs</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link d-text" href="#">Contact</a>
+                      <a class="nav-link d-text" href="#contacts">Contact</a>
                     </li>
                 </div>
               </div>
@@ -61,10 +61,12 @@
         <p class="about_text d_text">For instance, whenever I go back to the guest house during the morning to copy out the 
           contract, these gentlemen are always still sitting there eating their breakfasts.
         </p>
-        <a href="#" style="text-decoration: none;">
-          <img src="assets/main/img/play.png" alt="Play Video icon">
-          <span class="play d_text">Play Video</span>
-        </a>
+        <div class="d-flex justify-content-center justify-content-md-start  my-3 my-md-0">
+          <a href="#" style="text-decoration: none;">
+            <img src="assets/main/img/play.png" alt="Play Video icon">
+            <span class="play d_text">Play Video</span>
+          </a>
+        </div>
       </div>
       <div class="col-12 col-md-6 d-flex justify-content-center ">
         <img src="assets/main/img/about.jpg" alt="About image">
@@ -98,7 +100,7 @@
 <!--####################################### Icon page seaction end #######################################-->
 
 <!--####################################### Portfolio page seaction begiin #######################################-->
-<div class="portfolio">
+<div class="portfolio" id="portfolio">
 <h6 class="d_text about_title">Portfolio</h6>
 <h1 class="d_text about_main_title">Browse Our Projects</h1>
 <div class="d_text custom_btns">
@@ -135,28 +137,34 @@
 
 <!--####################################### News page seaction begin #######################################-->
 
-<div class="news">
-  <div class="container my-5 py-5">
+<div class="news" id="blogs">
+  <div class="container mt-5 py-5">
     <h6 class="d_text about_title text-center">Updates & News</h6>
     <h1 class="d_text about_main_title text-center mb-5">Recent Blog Posts</h1>
 
     <div class="row ">
     <div class="col-12 col-md-4  d-grid gap-2 d-flex flex-column justify-content-center align-items-center">
+      <div style="width: 20rem;" class="d-grid gap-3 ">
       <img src="./assets/main/img/block1.jpg" alt="blog img 1" width="100%" height="auto">
-      <h6>OPINION</h6>
-      <p>Why you should start using Figma for prototyping.</p>
+      <h6 class="news_title1 d_text mt-2 mt-md-4">OPINION</h6>
+      <p class="news_text d_text">Why you should start using Figma for prototyping.</p>
+    </div>
     </div>
 
     <div class="col-12 col-md-4 d-grid gap-2  d-flex flex-column justify-content-center align-items-center">
+      <div style="width: 20rem;" class="d-grid gap-3 ">
       <img src="./assets/main/img/block2.jpg" alt="blog img 2" width="100%" height="auto">
-      <h6>NEWS</h6>
-      <p>Why you should start using Figma for prototyping.</p>
+      <h6 class="news_title2 d_text mt-2 mt-md-4">NEWS</h6>
+      <p class="news_text d_text">The top 10 Figma plugins that will increase your workflow by 200%.</p>
+    </div>
     </div>
 
     <div class="col-12 col-md-4 d-grid gap-2  d-flex flex-column justify-content-center align-items-center">
+      <div style="width: 20rem;" class="d-grid gap-3 ">
       <img src="./assets/main/img/block3.jpg" alt="blog img 3" width="100%" height="auto">
-      <h6>OPINION</h6>
-      <p>Why you should start using Figma for prototyping.</p>
+      <h6 class="news_title3 d_text mt-2 mt-md-4">OPINION</h6>
+      <p class="news_text d_text">Why you should start using Figma for prototyping.</p>
+    </div>
     </div>
     </div>
 
@@ -164,6 +172,16 @@
   </div>
 </div>
 <!--####################################### News page seaction end #######################################-->
+
+<!--####################################### Footer seaction begin #######################################-->
+<footer class="py-5" id="contacts">
+  <p class="text-center d_text footer_title">Copyright © 2020, Hero Header Inc.</p>
+  <div class="text-center"><img src="./assets/main/img/share_24px.svg" alt=""></div>
+</footer>
+
+
+
+<!--####################################### Footer seaction end #######################################-->
 
 
     <script src="./assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
