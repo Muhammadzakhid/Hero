@@ -1,198 +1,275 @@
 /* poppins-300 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
-  src: url("assets/main/fonts/poppins-v20-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('assets/main/fonts/poppins-v20-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  src: url("assets/main/fonts/poppins-v20-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('assets/main/fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-500 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
-  src: url("assets/main/fonts/poppins-v20-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('assets/main/fonts/poppins-v20-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-700 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
-  src: url("assets/main/fonts/poppins-v20-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('assets/main/fonts/poppins-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* poppins-800 - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Poppins";
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  src: url("assets/main/fonts/poppins-v20-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('assets/main/fonts/poppins-v20-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
- /* ######################################## Home page seaction begin ######################################## */
+:root {
+--orange: #FFAE00;
+--pink: #F3849F;
+}
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+/* ------------------------- Home page section begin ------------------------- */
 
 .home {
-  height: 70vh;
-  background: #926ff6;
+background-color: #926FF6;
+height: 70vh;
 }
 
 .d_text {
-  font-family: 'Popins' , sans-serif , serif;
-  color: #000;
+font-family: 'Poppins', sans-serif, serif;
 }
-
 
 .small_title {
-  color: #ffe074;
-  font-weight: 800;
-  font-family: Poppins;
-}
-
-.main_title {
-  color: #fff;
-  font-size: 62px;
-  font-family: Popins;
-  font-weight: 800;
+color: #FFE074;
+font-weight: 800;
+font-size: 14px;
 }
 
 .small_title_2 {
-  color: #fff;
-  font-weight: 300;
+color: #fff;
+font-weight: 300;
+letter-spacing: 0.332px;
+}
+
+.main_title {
+color: #fff;
+font-size: 62px;
+font-weight: 800;
 }
 
 .logo {
-  font-size: 18px;
-  font-weight: 800;
+color: #fff;
+font-size: 18px;
+font-weight: 800;
 }
 
 .nav_f {
-  color: #fff;
-  font-size: 16px;
-  font-weight: 400;
+color: #fff;
 }
 
- /* ######################################## Home page seaction end ######################################## */
 
-  /* ######################################## About page seaction begin ######################################## */
+/* ------------------------- Home page section end ------------------------- */
+
+
+/* ------------------------- About page section begin ------------------------- */
 
 .about_title {
-  color: #FFAE00;
-  font-size: 12px;
-  font-weight: 700;
+color: var(--orange);
+font-size: 12px;
+font-weight: 700;
 }
 
 .about_main_title {
-  color: #4F4F4F;
-  font-size: 24px;
-  font-weight: 500;
+color: #4F4F4F;
+font-size: 24px;
+font-weight: 500;
 }
 
 .about_text {
-  color: #4F4F4F;
-  font-weight: 300;
+color: #4F4F4F;
+font-weight: 300;
 }
 
 .play {
-  color: #F3849F;
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
+color: #F3849F;
+font-weight: 700;
+font-size: 16px;
+text-decoration: none;
 }
 
- /* ######################################## About page seaction end ######################################## */
+/* ------------------------- About page section end ------------------------- */
 
- 
-  /* ######################################## Icon page seaction begin ######################################## */
+/* ------------------------- Icons page section begin ------------------------- */
 
-.icon_title {
-  color: #4F4F4F;
-  font-size: 22px;
-  font-weight: 500;
+.icons_title {
+color: #4F4F4F;
+font-size: 22px;
+font-weight: 500;
 }
 
-.icon_text {
-  color: #4F4F4F;
-  font-size: 16px;
-  font-weight: 300;
+.icons_text {
+color: #4F4F4F;
+font-size: 16px;
+font-weight: 300;
 }
 
+/* ------------------------- Icons page section end ------------------------- */
 
- /* ######################################## Icon page seaction end ######################################## */
 
- /* ######################################## Portfolio page seaction begin ######################################## */
+/* ------------------------- Portfolio page section begin ------------------------- */
 
-.btn_custom {
-  color: #828282;
-  padding: 5px 18px;
+.custom_btn {
+color: #828282;
+padding: 5px 18px;
+border-radius: 26px;
 }
 
-.btn_custom:hover {
-  color: #fff;
-  background: #F3849F;
-  border-radius: 26px;
+.custom_btn:hover {
+color: #fff;
+background-color: #F3849F;
+
 }
 
+/* ------------------------- Portfolio page section end ------------------------- */
 
- /* ######################################## Portfolio page seaction end ######################################## */
+/* ------------------------- News page section begin ------------------------- */
 
- /* ######################################## News page seaction begin ######################################## */
 .news {
-  background: #F7EEFF;
+background: #F7EEFF;
 }
 
-.news_title1 {
-  color: #F3849F;
-  font-weight: 700;
-}
-.news_title2 {
-  color: #926FF6;
-  font-weight: 700;
+.news_title_1 {
+font-weight: 700;
+color: #F3849F;
 }
 
-.news_title3 {
-  color: #79CFFF;
-  font-weight: 700;
+.news_title_2 {
+font-weight: 700;
+color: #926FF6;
+}
+
+.news_title_3 {
+font-weight: 700;
+color: #79CFFF;
 }
 
 .news_text {
-  font-weight: 500;
-  color: #4F4F4F;
+font-weight: 500;
+color: #4F4F4F;
 }
+
+
+
+/* ------------------------- News page section end ------------------------- */
+
+/* ------------------------- Footer section begin ------------------------- */
 
 footer {
-  background: #333333;
+background-color: #333333;
 }
 
-.footer_title {
-  color: #F7EEFF;
-  font-size: 15px;
+.f_text {
+color: #F7EEFF;
+font-size: 15px
 }
 
- /* ######################################## News page seaction end ######################################## */
+/* ------------------------- Footer section end ------------------------- */
 
 
- /* ######################################## Responsive seaction begin ######################################## */
-@media  screen and (max-width: 768px) {
-  .small_title {
-    font-size: 12px;
+/* ------------------------- Responsive section begin ------------------------- */
+
+/* ------------------------- Responsive section end ------------------------- */
+
+@media screen and (max-width: 768px) {
+.small_title {
+  font-size: 14px;
+}
+
+.main_title {
+  font-size: 32px;
+}
+
+.home {
+  height: 80vh;
+}
+
+.icons_title {
+  font-size: 16px;
+}
+
+.icons_text {
+  font-size: 12px;
+}
+
+.custom_btn {
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.about_title {
+  font-size: 10px;
+}
+
+.about_main_title {
+  font-size: 16px;
+}
+
+.news_title_1 {
+  font-size: 14px;
+}
+
+.news_title_2 {
+  font-size: 14px;
+}
+
+.news_title_3 {
+  font-size: 14px;
+}
+
+.news_text {
+  font-size: 12px;
+}
+
+.custom_card {
+  width: 14rem !important;
+}
+
+.custom_card {
+  width: 100% !important;
+}
+}
+
+
+@media  screen and (min-width: 768px) {
+  .custom_card {
+    width: 14rem !important;
   }
   
-  .main_title {
-    font-size: 14;
-  }
-  
 }
 
-
-
- /* ######################################## Responsive seaction end ######################################## */
+@media screen and (min-width: 1200px) {
+  .custom_card {
+    width: 20rem !important;
+  }
+}
